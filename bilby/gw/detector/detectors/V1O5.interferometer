@@ -2,7 +2,7 @@
 # arXiv:gr-qc/0008066 Table 1
 # https://dcc.ligo.org/LIGO-P1200087-v42/public
 name = 'V1O5'
-power_spectral_density = PowerSpectralDensity(psd_file='avirgo_O5high_NEW.txt')
+power_spectral_density = PowerSpectralDensity(asd_file='avirgo_O5high_NEW.txt')
 length = 3
 minimum_frequency = 20
 maximum_frequency = 2048

@@ -6,7 +6,7 @@
 #check the detector constant LAL value (careful about the convention) (https://lscsoft.docs.ligo.org/lalsuite/lal/group___detector_constants.html) 
 
 name = 'K1O5'
-power_spectral_density = PowerSpectralDensity(psd_file='kagra_128Mpc.txt')
+power_spectral_density = PowerSpectralDensity(asd_file='kagra_128Mpc.txt')
 length = 3
 minimum_frequency = 20
 maximum_frequency = 2048
