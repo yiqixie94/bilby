@@ -2,7 +2,7 @@
 # LIGO-T2000158
 # https://dcc.ligo.org/LIGO-T2000012/public
 name = 'A1O5'
-power_spectral_density = PowerSpectralDensity(asd_file='AplusDesign.csv')
+power_spectral_density = PowerSpectralDensity(asd_file='AplusDesign.txt')
 minimum_frequency = 20
 maximum_frequency = 2048
 length = 4
